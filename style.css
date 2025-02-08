@@ -1,11 +1,15 @@
 #real-alert{
-  color: red;
+  background-color: red;
 }
 
 #test-only{
-  color: darkblue;
+  background-color: darkblue;
+  color: white;
 }
 
 .missile-link{
   display: block;
+  font-size: 20px;
+  border-color: black;
+  border-style: solid;
 }
