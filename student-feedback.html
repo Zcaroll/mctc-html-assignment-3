@@ -15,40 +15,43 @@
     <h1>Please provide your feedback</h1>
 </div>
 
-<form>
-  
-  <label class="form-label" for="user-name">Name</label>
-  <input class="form-control" name="user-name" id="user-name" type="text">
-  
-  <br>
-  
-  <label class="form-label" for="email">email</label>
-  <input class="form-control" name="email" id="email" type="text">
-  
-  <br>
-  
-  <label class="form-label" for="comments">Comments</label>
-  
-  <br>
-  
-  <textarea class="form-control" name="comments" id="comments" required></textarea>
-  
-  <br>
-  
-  <label for="current_student-label">Are you a current student?</label>
-  
-  <br>
-  
-  <label for="yes">Yes</label>
-  <input name="current_student" id="yes" type="radio">
-  <label for="no">No</label>
-  <input name="current_student" id="no" type="radio">
-  
-  <br>
-  
-  <input class="btn btn-dark" type="submit">
-
-</form>
-</body>
-  
+    <form>
+      
+      <label class="form-label" for="user-name">Name</label>
+      <input class="form-control" name="user-name" id="user-name" type="text">
+      
+      <br>
+      
+      <label class="form-label" for="email">email</label>
+      <input class="form-control" name="email" id="email" type="text">
+      
+      <br>
+      
+      <label class="form-label" for="comments">Comments</label>
+      
+      <br>
+      
+      <textarea class="form-control" name="comments" id="comments" required></textarea>
+      
+      <br>
+      
+      <p>Are you a current student?</p>
+      
+      <br>
+      <div class="form-check">
+          <label class="form-check-label" for="yes">Yes</label>
+          <input class="form-check-input" name="current_student" id="yes" type="radio">
+      </div>
+    
+        <div class="form-check">
+          <label class="form-check-label" for="no">No</label>
+          <input class="form-check-input" name="current_student" id="no" type="radio">
+        </div>
+      
+      <br>
+      
+      <input class="btn btn-dark" type="submit">
+    
+    </form>
+</body>  
 </html>
