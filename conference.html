@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Title</title>
+    <title>Title</title>
 </head>
 <body>
+<form>
 
+    <label class="form-label" for="user-name">Name</label>
+    <input class="form-control" name="user-name" id="user-name" type="text"> <br>
 
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd"> <br>
+
+    <label class="form-label" for="email">email</label>
+    <input class="form-control" name="email" id="email" type="text"> <br>
+
+    <label for="date-of-birth">Date of birth:</label>
+    <input type="date" id="date-of-birth" name="date-of-birth"> <br>
+
+    <p>Receive email updates?</p>
+    <input type="radio" id="email-updates-yes" name="email-updates" value="Yes">
+    <label for="email-updates-yes">Yes</label><br>
+    <input type="radio" id="email-updates-no" name="email-updates" value="No">
+    <label for="email-updates-no">No</label><br>
+
+    <p>Choose Sessions</p>
+    <input type="checkbox" id="session-time1" name="session-time1" value="Morning">
+    <label for="session-time1"> Morning</label><br>
+    <input type="checkbox" id="session-time2" name="session-time2" value="Afternoon">
+    <label for="session-time2"> Afternoon</label><br>
+    
+    <p>Special Requests</p>
+
+</form>
 
 </body>
 </html>
-
